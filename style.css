@@ -396,10 +396,14 @@ p {
     }
 
     .hero-content p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 0 15px;
+        margin-bottom: 2rem;
     }
-
+    .cta-button {
+        padding: 0.9rem 2rem; 
+        font-size: 0.95rem;
+    }
     .gallery {
         grid-template-columns: 1fr;
     }
