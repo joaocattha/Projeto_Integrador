@@ -30,3 +30,16 @@ window.addEventListener('load', () => {
     header.style.transform = 'translateY(0)';
   }
 });
+
+function toggleTexto() {
+    const texto = document.getElementById('textoCurso');
+    const btn = document.getElementById('btnExpandir');
+    
+    if (texto.classList.contains('collapsed')) {
+        texto.classList.remove('collapsed');
+        btn.textContent = 'Mostrar menos';
+    } else {
+        texto.classList.add('collapsed');
+        btn.textContent = 'Saiba mais';
+    }
+}
